@@ -189,7 +189,7 @@ body{
 	margin-top:40px;
 	overflow: hidden;
 }
-#jiadian{
+.jiadian{
 	width: 1226px;
 	height: 672px;
 	margin:0 auto;
@@ -293,6 +293,9 @@ body{
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
+.mokuai{
+	margin-top: 22px;
+}
 .jd-n3{
 	font-size: 12px;
 	color: #757575
@@ -314,9 +317,9 @@ body{
 }
 .tj-box{
 	width: 1226px;
-	height: 473px;
+	height: 358px;
 	margin:0 auto;
-	margin-top: 60px;
+	margin-top: 22px;
 }
 .tjp-box{
 	height: 314px;
@@ -381,7 +384,7 @@ body{
 	width: 1226px;
 	height: 478px;
 	margin: 0 auto;
-	margin-top: 60px;
+	margin-top: 22px;
 }
 .nr-pro{
 	position: relative;
@@ -452,4 +455,226 @@ body{
 .sp-kp{
 	width: 296px;
     height: 285px;
+}
+.sp-pic{
+	width: 296px;
+    height: 180px;
+	margin-bottom: 28px;
+}
+.sp-name{
+	margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+}
+.sp-jj{
+	height: 18px;
+    margin: 0;
+    font-size: 12px;
+    color: #b0b0b0;
+    text-align: center;
+}
+.sp-pic .iconfont{
+	font-size: 30px;
+	color: #fff;
+	margin: -45px 20px 0;
+	transition: all 0.5s linear;
+}
+.sp-pic:hover .iconfont{
+	color: #ff6709;
+}
+.sp-box{
+	height: 285px;
+}
+.sp-box{
+	width: 1226px;
+	height: 343px;
+	margin:0 auto;
+	margin-top: 22px;
+	margin-bottom: 60px;
+}
+.rp-kp{
+	height: 473px;
+}
+.zhandian{
+	width: 100%;
+	height: 272px;
+	background-color: #fff;
+}
+.service{
+	width: 1226px;
+	height: 25px;
+	padding: 27px 0;
+	margin:0 auto;
+	border-bottom: 1px solid #e0e0e0;
+}
+.service .iconfont{
+	width: 126px;
+	height: 25px;
+	padding:0 59px;
+	border-right: 1px solid #e0e0e0;
+	text-align: center;
+	font-size: 20px;
+	color: #616161;
+	float: left;
+}
+.service .wx1:after{
+	content: "免费预约服务";
+	display: block;
+	font-size: 16px;
+	float: right;
+}
+.service .wx2:after{
+	content: "7天无理由退换";
+	display: block;
+	font-size: 16px;
+	float: right;
+}
+.service .wx3:after{
+	content: "15天免费换货";
+	display: block;
+	font-size: 16px;
+	float: right;
+}
+.service .wx4:after{
+	content: "满150元包邮";
+	display: block;
+	font-size: 16px;
+	float: right;
+}
+.service .wx5:after{
+	content: "520余家售后网点";
+	display: block;
+	font-size: 16px;
+	float: right;
+}
+.service .wx5{
+	border-right: 0;
+	width: 152px;
+	padding: 0 46px;
+}
+.ditu{
+	width: 1226px;
+	height: 112px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.fenlei{
+	width: 160px;
+	height: 112px;
+	float: left;
+}
+.zhu{
+	margin: -1px 0 26px;
+	font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+.fu{
+	margin: 10px 0 0;
+    font-size: 12px;
+    color: #757575
+}
+.lianxi{
+	width: 245px;
+	height: 112px;
+	float: right;
+	border-left: 1px solid #e0e0e0
+}
+.lx-1{
+	width: 244px;
+	text-align: center;
+	margin: 0 0 5px;
+	font-size: 22px;
+	color: #ff6700;
+}
+.lx-2{
+	width: 244px;
+	height: 36px;
+	margin-bottom:16px;
+}
+.time{
+	text-align: center;
+	font-size: 12px;
+	color: #616161;
+}
+.lx{
+	width: 118px;
+	height: 28px;
+	border: 1px solid #ff6700;
+	margin:0 auto;
+}
+.lx .iconfont{
+	font-size: 12px;
+	line-height: 28px;
+	color: #ff6700;
+	text-align: center;
+}
+.lx:hover{
+	background-color: #ff6700;
+}
+.lx:hover .iconfont{
+	color: #fff
+}
+.mess{
+	width: 1226px;
+	height: 106px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.mt1{
+	width: 57px;
+	height: 57px;
+	margin-right:10px;
+	background-color: #ff6700;
+	float: left;
+}
+.mxm{
+	font-size: 12px;
+	color: #757575;
+	float: left;
+	line-height: 18px;
+}
+.mxm1{
+	margin: 0 3px;
+}
+.mx2{
+	margin-left: 0;
+	color: #b0b0b0;
+	font-size: 12px;
+}
+.mt2{
+	width: 790px;
+	height: 57px;
+	margin: 0;
+}
+.mxm2:hover{
+	color: #ff6700;
+}
+.mt{
+	width: 366px;
+	height: 28px;
+	float: right;
+	margin-top: -57px;	
+}
+.mess-pic{
+	width: 85px;
+	height: 28px;
+	margin-left: 7px;
+	float: left;
+}
+.mp-01{
+	width: 83px;
+}
+.mess-b{
+	width: 270px;
+	height: 20px;
+	margin: 19px auto 0;
+
+}
+.messbox{
+	background-color: #FAFAFA;
+	width: 100%;
+	height: 166px;
 }
