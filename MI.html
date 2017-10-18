@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/mi.css">
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="font/iconfont.css">
+	<link rel="stylesheet" href="font/font/iconfont.css">
 </head>
 <body>
 	<!-- 头部开始 -->
@@ -39,8 +40,10 @@
 				<a href="" class="head-mune">注册</a>
 				<h5 class="head-mune head-fenge">|</h5>
 				<a href="" class="head-mune">消息通知</a>
-				<h5 class="head-mune head-fenge">|</h5>
-				<a href="" class="head-mune iconfont icon-sousuo"></a>
+				<a href="" class="buy">
+					<i class="iconfont icon-qicheqianlian-"></i>
+					<h5>购物车(0)</h5>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -62,12 +65,121 @@
 			<a href="" class="nav-zi">服务</a>
 			<a href="" class="nav-zi">社区</a>
 		</div>
+		<div class="nav-search">
+			<input type="text" class="soukuang" placeholder="请输入检索信息">
+			<input type="submit" value="&#xe60b;" class="sou-button iconfont">
+		</div>
 	</div>
 	<!-- 导航结束 -->
-
+	<!-- banner模块开始 -->
+	<div class="banner">
+		<div class="banpic">
+			<a href="https://www.mi.com/mibookpro/">
+				<img src="img/ban-pic.jpg" alt="">
+			</a>
+			<ul class="ban-list">
+				<li>
+					<a href="">
+						<span class="ban-L">手机 电话卡</span>
+						<span class="ban-R"> 〉 </span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="ban-L">笔记本 平板</span>
+						<span class="ban-R"> 〉 </span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="ban-L">电视 盒子</span>
+						<span class="ban-R"> 〉 </span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="ban-L">路由器 智能硬件</span>
+						<span class="ban-R"> 〉 </span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="ban-L">移动电源 电池 插线板</span>
+						<span class="ban-R"> 〉 </span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="ban-L">耳机 音响</span>
+						<span class="ban-R"> 〉 </span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="ban-L">保护套 贴膜</span>
+						<span class="ban-R"> 〉 </span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="ban-L">线材 支架 储存卡</span>
+						<span class="ban-R"> 〉 </span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="ban-L">箱包 服饰 鞋 眼镜</span>
+						<span class="ban-R"> 〉 </span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="ban-L">米兔 生活周边	</span>
+						<span class="ban-R"> 〉 </span>
+					</a>
+				</li>
+			</ul>
+				<a href="" class="ban-button ban-bL"> 〈 </a>
+				<a href="" class="ban-button ban-bR"> 〉 </a>
+			<ul class="dian">
+				<li class="dian-xuan"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>	
+	</div>
+	<!-- banner模块结束 -->
 	<!-- 大图模块开始 -->
 	<div class="pic">
-		<div class="picbox pic01"></div>
+		<div class="picbox pic01">
+			<a href="" class="FW">
+				<i class="FW-I iconfont icon-xuangoushouji"></i>
+				<h5 class="FW-N">以旧换新</h5>
+			</a>
+			<a href="" class="FW">
+				<i class="FW-I iconfont icon-liwu"></i>
+				<h5 class="FW-N">以旧换新</h5>
+			</a>
+			<a href="" class="FW FW-1">
+				<i class="FW-I iconfont icon-yiyuan"></i>
+				<h5 class="FW-N">以旧换新</h5>
+			</a>
+			<a href="" class="FW">
+				<i class="FW-I iconfont icon-dianhuaqia"></i>
+				<h5 class="FW-N">以旧换新</h5>
+			</a>
+			<a href="" class="FW">
+				<i class="FW-I iconfont icon-yijiuhuanxin"></i>
+				<h5 class="FW-N">以旧换新</h5>
+			</a>
+			<a href="" class="FW FW-1">
+				<i class="FW-I iconfont icon-huafeichongzhi"></i>
+				<h5 class="FW-N">以旧换新</h5>
+			</a>
+		</div>
 		<a href="https://item.mi.com/product/10000064.html">
 			<div class="picbox pic02">
 				<img src="img/MI5.jpg" alt="">
@@ -100,42 +212,42 @@
 
 		<div class="star-product">
 			<div class="star-pro star-pro01">
-				<div class="pic-pro">
+				<a href="https://item.mi.com/product/10000057.html" class="pic-pro">
 					<img src="img/P01.png" alt="">
-				</div>
-				<h1 class="pro-name">小米Max 2</h1>
+				</a>
+				<a href="https://item.mi.com/product/10000057.html" class="pro-name">小米Max 2</a>
 				<h1 class="pro-sm">大屏大电量，享多重好礼</h1>
 				<h1 class="pro-money">1399元起</h1>
 			</div>
 			<div class="star-pro star-pro02">
-				<div class="pic-pro">
+				<a href="https://item.mi.com/product/10000029.html" class="pic-pro">
 					<img src="img/P02.png" alt="">
-				</div>
-				<h1 class="pro-name">红米Note 4X</h1>
+				</a>
+				<a href="https://item.mi.com/product/10000029.html" class="pro-name">红米Note 4X</a>
 				<h1 class="pro-sm">4100mAh超长续航，多彩金属</h1>
 				<h1 class="pro-money">999元起</h1>
 			</div>
 			<div class="star-pro star-pro03">
-				<div class="pic-pro">
+				<a href="https://item.mi.com/product/10000031.html" class="pic-pro">
 					<img src="img/P03.png" alt="">
-				</div>
-				<h1 class="pro-name">红米 4X</h1>
+				</a>
+				<a href="https://item.mi.com/product/10000031.html" class="pro-name">红米 4X</a>
 				<h1 class="pro-sm">4100mAh超长续航，8核处理器</h1>
 				<h1 class="pro-money">699元起</h1>
 			</div>
 			<div class="star-pro star-pro04">
-				<div class="pic-pro">
+				<a href="https://www.mi.com/mitv4A/43/" class="pic-pro">
 					<img src="img/P04.png" alt="">
-				</div>
-				<h1 class="pro-name">小米电视4A 43英寸</h1>
+				</a>
+				<a href="https://www.mi.com/mitv4A/43/" class="pro-name">小米电视4A 43英寸</a>
 				<h1 class="pro-sm">全高清HDR，智能语音</h1>
 				<h1 class="pro-money">1999元起</h1>
 			</div>
 			<div class="star-pro">
-				<div class="pic-pro">
+				<a href="https://item.mi.com/product/10000032.html" class="pic-pro">
 					<img src="img/P05.png" alt="">
-				</div>
-				<h1 class="pro-name">小米笔记本	</h1>
+				</a>
+				<a href="https://item.mi.com/product/10000032.html" class="pro-name">小米笔记本	</a>
 				<h1 class="pro-sm">更轻更薄，像杂志一样随身携带</h1>
 				<h1 class="pro-money">3599元起</h1>
 			</div>
@@ -157,68 +269,96 @@
 				</div>
 			</div>
 			<div class="jiadian-b">
-				<div class="jp-l">
+				<a href="https://www.mi.com/roomrobot/" class="jp-l">
 					<img src="img/JD-01.jpg" alt="">
-				</div>
+				</a>
 				<div class="jp-r">
-					<div class="jd-pro">
+					<a href="https://www.mi.com/mitv4A/32/" class="jd-pro">
 						<div class="jd-proimg">
 							<img src="img/J-01.jpg" alt="">
 						</div>
 						<h1 class="pro-name jd-name">小米电视4A 32"</h1>
 						<h1 class="pro-sm">64位4核处理器/1GB+4GB大内存</h1>
 						<h1 class="pro-money">1099元</h1>
-					</div>	
-					<div class="jd-pro">
+						<div class="shangtan">
+							<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+							<span> 来自于 不吃肉的虎 的评价 </span>
+						</div>
+					</a>	
+					<a href="https://www.mi.com/mitv4A/49/" class="jd-pro">
 						<div class="jd-proimg">
 							<img src="img/J-02.png" alt="">
 						</div>
 						<h1 class="pro-name jd-name">小米电视4A 49英寸 标准版</h1>
 						<h1 class="pro-sm">2GB+8GB 大内存/全高清HDR</h1>
 						<h1 class="pro-money">2199元</h1>
-					</div>	
-					<div class="jd-pro">
+						<div class="shangtan">
+							<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+							<span> 来自于 不吃肉的虎 的评价 </span>
+						</div>
+					</a>	
+					<a href="https://www.mi.com/mibookpro/" class="jd-pro">
 						<div class="jd-proimg">
 							<img src="img/j-05.jpg" alt="">
 						</div>
 						<h1 class="pro-name jd-name">小米笔记本Pro 15.6英寸</h1>
 						<h1 class="pro-sm">全金属强化机身/FHD全贴合屏幕</h1>
 						<h1 class="pro-money">5599元</h1>
-					</div>	
-					<div class="jd-pro">
+						<div class="shangtan">
+							<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+							<span> 来自于 不吃肉的虎 的评价 </span>
+						</div>
+					</a>	
+					<a href="https://www.mi.com/mibookair/" class="jd-pro">
 						<div class="jd-proimg">
 							<img src="img/j-04.jpg" alt="">
 						</div>
 						<h1 class="pro-name jd-name">小米笔记本Air 13.3" i7处理器</h1>
 						<h1 class="pro-sm">Inter酷睿i7处理器,8GB+256GB</h1>
 						<h1 class="pro-money">5999元</h1>
-					</div>	
-					<div class="jd-pro">
+						<div class="shangtan">
+							<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+							<span> 来自于 不吃肉的虎 的评价 </span>
+						</div>
+					</a>	
+					<a href="https://www.mi.com/kettle/" class="jd-pro">
 						<div class="jd-proimg">
 							<img src="img/j-03.jpg" alt="">
 						</div>
 						<h1 class="pro-name jd-name">米家恒温电水壶</h1>
 						<h1 class="pro-sm">水温智能控制，304不锈钢内胆</h1>
 						<h1 class="pro-money">199元</h1>
-					</div>	
-					<div class="jd-pro">
+						<div class="shangtan">
+							<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+							<span> 来自于 不吃肉的虎 的评价 </span>
+						</div>
+					</a>	
+					<a href="https://www.mi.com/carair/" class="jd-pro">
 						<div class="jd-proimg">
 							<img src="img/j-06.jpg" alt="">
 						</div>
 						<h1 class="pro-name jd-name">车载空气净化器(USB车充版)</h1>
 						<h1 class="pro-sm">高效净化车内空气</h1>
 						<h1 class="pro-money">399元</h1>
-					</div>	
-					<div class="jd-pro">
+						<div class="shangtan">
+							<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+							<span> 来自于 不吃肉的虎 的评价 </span>
+						</div>
+					</a>	
+					<a href="https://www.mi.com/water2/" class="jd-pro">
 						<div class="jd-proimg">
 							<img src="img/j-07.png" alt="">
 						</div>
 						<h1 class="pro-name jd-name">米家IH电饭煲4L</h1>
 						<h1 class="pro-sm">IH电磁环绕加热，3000+煮米方案/h1>
 						<h1 class="pro-money">599元</h1>
-					</div>	
-					<div class="jd-pro">
-						<div class="jd-pl">
+						<div class="shangtan">
+							<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+							<span> 来自于 不吃肉的虎 的评价 </span>
+						</div>
+					</a>	
+					<div class="jd-pro1">
+						<a href="https://www.mi.com/micamera/" class="jd-pl">
 							<div class="pl-l">
 								<h1 class="pro-name jd-name jd-n">小白摄像机</h1>
 								<h1 class="pro-money jd-n">399元</h1>	
@@ -226,8 +366,8 @@
 							<div class="pl-r">
 								<img src="img/j-08.jpg" alt="">
 							</div>
-						</div>
-						<div class="jd-pl">
+						</a>
+						<a href="https://www.mi.com/buytv/" class="jd-pl">
 							<div class="pl-l">
 								<h1 class="pro-name jd-name jd-n jd-n2">浏览更多</h1>
 								<h1 class="pro-money jd-n jd-n3">热门</h1>	
@@ -235,7 +375,7 @@
 							<div class="pl-r2">
 								<img src="img/more.png" alt="">
 							</div>
-						</div>
+						</a>
 					</div>	
 				</div>
 			</div>
@@ -254,70 +394,98 @@
 				</div>
 			</div>
 			<div class="jiadian-b">
-				<div class="jd-pro zn-pro">
+				<a href="https://www.mi.com/dianfanbao2-4l/" class="jd-pro zn-pro">
 					<img src="img/zn-01.jpg" alt="">
-				</div>	
-				<div class="jd-pro">
+				</a>	
+				<a href="https://www.mi.com/aispeaker/" class="jd-pro">
 					<div class="jd-proimg">
 						<img src="img/z-01.jpg" alt="">
 					</div>
 					<h1 class="pro-name jd-name">小米AI音箱</h1>
 					<h1 class="pro-sm">      </h1>
 					<h1 class="pro-money">299元</h1>
-				</div>	
-				<div class="jd-pro">
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
+				</a>	
+				<a href="https://www.mi.com/nightlight/" class="jd-pro">
 					<div class="jd-proimg">
 						<img src="img/z-02.jpg" alt="">
 					</div>
 					<h1 class="pro-name jd-name">米家感应夜灯	</h1>
 					<h1 class="pro-sm">超低功耗，亮度双档调节，可贴可挂</h1>
 					<h1 class="pro-money">49元</h1>
-				</div>	
-				<div class="jd-pro">
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
+				</a>	
+				<a href="https://www.mi.com/xiaofang" class="jd-pro">
 					<div class="jd-proimg">
 						<img src="img/z-03.jpg" alt="">
 					</div>
 					<h1 class="pro-name jd-name">小方摄像机	</h1>
 					<h1 class="pro-sm">1080P 好清晰，看家看娃看宠物</h1>
 					<h1 class="pro-money">129元</h1>
-				</div>	
-				<div class="jd-pro">
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
+				</a>	
+				<a href="https://www.mi.com/miwifi3c//" class="jd-pro">
 					<div class="jd-proimg">
 						<img src="img/z-04.jpg" alt="">
 					</div>
 					<h1 class="pro-name jd-name">小米路由3C</h1>
 					<h1 class="pro-sm">APP智能控制，安全防蹭网</h1>
 					<h1 class="pro-money">89元</h1>
-				</div>	
-				<div class="jd-pro zn-pro">
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
+				</a>	
+				<a href="https://www.mi.com/miwifi3a/" class="jd-pro zn-pro">
 					<img src="img/zn-02.jpg" alt="">
-				</div>	
-				<div class="jd-pro">
+				</a>	
+				<a href="https://item.mi.com/1152300006.html" class="jd-pro">
 					<div class="jd-proimg">
 						<img src="img/z-05.jpg" alt="">
 					</div>
 					<h1 class="pro-name jd-name">Yeelight床头灯</h1>
 					<h1 class="pro-sm">触摸式操作体验，给卧室1600万种颜色</h1>
 					<h1 class="pro-money">249元	</h1>
-				</div>	
-				<div class="jd-pro">
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
+				</a>	
+				<a href="https://www.mi.com/mirror/" class="jd-pro">
 					<div class="jd-proimg">
 						<img src="img/z-06.jpg" alt="">
 					</div>
 					<h1 class="pro-name jd-name">70迈智能后视镜</h1>
 					<h1 class="pro-sm">ADAS高级驾辅，1080P行车记录</h1>
 					<h1 class="pro-money">1299元</h1>
-				</div>	
-				<div class="jd-pro">
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
+				</a>	
+				<a href="https://www.mi.com/ihealth2/" class="jd-pro">
 					<div class="jd-proimg">
 						<img src="img/z-07.jpg" alt="">
 					</div>
 					<h1 class="pro-name jd-name">米家iHealth血压计</h1>
 					<h1 class="pro-sm">爸妈上手就会用的智能血压计</h1>
 					<h1 class="pro-money">399元</h1>
-				</div>	
-				<div class="jd-pro">
-					<div class="jd-pl">
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
+				</a>	
+				<div class="jd-pro1">
+					<a href="https://www.mi.com/mivr/" class="jd-pl">
 						<div class="pl-l">
 							<h1 class="pro-name jd-name jd-n">小米VR眼镜</h1>
 							<h1 class="pro-money jd-n">299元</h1>	
@@ -325,8 +493,8 @@
 						<div class="pl-r">
 							<img src="img/z-08.jpg" alt="">
 						</div>
-					</div>
-					<div class="jd-pl">
+					</a>
+					<a href="https://www.mi.com/smart/" class="jd-pl">
 						<div class="pl-l">
 							<h1 class="pro-name jd-name jd-n jd-n2">浏览更多</h1>
 							<h1 class="pro-money jd-n jd-n3">热门</h1>	
@@ -334,7 +502,7 @@
 						<div class="pl-r2">
 							<img src="img/more.png" alt="">
 						</div>
-					</div>
+					</a>
 				</div>		
 			</div>
 		</div>
@@ -362,6 +530,10 @@
 					<h1 class="pro-name jd-name">小米AI音箱</h1>
 					<h1 class="pro-sm">      </h1>
 					<h1 class="pro-money">299元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -370,6 +542,10 @@
 					<h1 class="pro-name jd-name">米家感应夜灯	</h1>
 					<h1 class="pro-sm">超低功耗，亮度双档调节，可贴可挂</h1>
 					<h1 class="pro-money">49元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -378,6 +554,10 @@
 					<h1 class="pro-name jd-name">小方摄像机	</h1>
 					<h1 class="pro-sm">1080P 好清晰，看家看娃看宠物</h1>
 					<h1 class="pro-money">129元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -386,6 +566,10 @@
 					<h1 class="pro-name jd-name">小米路由3C</h1>
 					<h1 class="pro-sm">APP智能控制，安全防蹭网</h1>
 					<h1 class="pro-money">89元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro zn-pro">
 					<img src="img/pj-06.jpg" alt="">
@@ -397,6 +581,10 @@
 					<h1 class="pro-name jd-name">Yeelight床头灯</h1>
 					<h1 class="pro-sm">触摸式操作体验，给卧室1600万种颜色</h1>
 					<h1 class="pro-money">249元	</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -405,6 +593,10 @@
 					<h1 class="pro-name jd-name">70迈智能后视镜</h1>
 					<h1 class="pro-sm">ADAS高级驾辅，1080P行车记录</h1>
 					<h1 class="pro-money">1299元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -413,8 +605,12 @@
 					<h1 class="pro-name jd-name">米家iHealth血压计</h1>
 					<h1 class="pro-sm">爸妈上手就会用的智能血压计</h1>
 					<h1 class="pro-money">399元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
-				<div class="jd-pro">
+				<div class="jd-pro1">
 					<div class="jd-pl">
 						<div class="pl-l">
 							<h1 class="pro-name jd-name jd-n">小米VR眼镜</h1>
@@ -460,6 +656,10 @@
 					<h1 class="pro-name jd-name">小米AI音箱</h1>
 					<h1 class="pro-sm">      </h1>
 					<h1 class="pro-money">299元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -468,6 +668,10 @@
 					<h1 class="pro-name jd-name">米家感应夜灯	</h1>
 					<h1 class="pro-sm">超低功耗，亮度双档调节，可贴可挂</h1>
 					<h1 class="pro-money">49元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -476,6 +680,10 @@
 					<h1 class="pro-name jd-name">小方摄像机	</h1>
 					<h1 class="pro-sm">1080P 好清晰，看家看娃看宠物</h1>
 					<h1 class="pro-money">129元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -484,6 +692,10 @@
 					<h1 class="pro-name jd-name">小米路由3C</h1>
 					<h1 class="pro-sm">APP智能控制，安全防蹭网</h1>
 					<h1 class="pro-money">89元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro zn-pro">
 					<img src="img/pj-06.jpg" alt="">
@@ -495,6 +707,10 @@
 					<h1 class="pro-name jd-name">Yeelight床头灯</h1>
 					<h1 class="pro-sm">触摸式操作体验，给卧室1600万种颜色</h1>
 					<h1 class="pro-money">249元	</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -503,6 +719,10 @@
 					<h1 class="pro-name jd-name">70迈智能后视镜</h1>
 					<h1 class="pro-sm">ADAS高级驾辅，1080P行车记录</h1>
 					<h1 class="pro-money">1299元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -511,8 +731,12 @@
 					<h1 class="pro-name jd-name">米家iHealth血压计</h1>
 					<h1 class="pro-sm">爸妈上手就会用的智能血压计</h1>
 					<h1 class="pro-money">399元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
-				<div class="jd-pro">
+				<div class="jd-pro1">
 					<div class="jd-pl">
 						<div class="pl-l">
 							<h1 class="pro-name jd-name jd-n">小米VR眼镜</h1>
@@ -559,6 +783,10 @@
 					<h1 class="pro-name jd-name">小米AI音箱</h1>
 					<h1 class="pro-sm">      </h1>
 					<h1 class="pro-money">299元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -567,6 +795,10 @@
 					<h1 class="pro-name jd-name">米家感应夜灯	</h1>
 					<h1 class="pro-sm">超低功耗，亮度双档调节，可贴可挂</h1>
 					<h1 class="pro-money">49元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -575,6 +807,10 @@
 					<h1 class="pro-name jd-name">小方摄像机	</h1>
 					<h1 class="pro-sm">1080P 好清晰，看家看娃看宠物</h1>
 					<h1 class="pro-money">129元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -583,6 +819,10 @@
 					<h1 class="pro-name jd-name">小米路由3C</h1>
 					<h1 class="pro-sm">APP智能控制，安全防蹭网</h1>
 					<h1 class="pro-money">89元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro zn-pro">
 					<img src="img/pj-06.jpg" alt="">
@@ -594,6 +834,10 @@
 					<h1 class="pro-name jd-name">Yeelight床头灯</h1>
 					<h1 class="pro-sm">触摸式操作体验，给卧室1600万种颜色</h1>
 					<h1 class="pro-money">249元	</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -602,6 +846,10 @@
 					<h1 class="pro-name jd-name">70迈智能后视镜</h1>
 					<h1 class="pro-sm">ADAS高级驾辅，1080P行车记录</h1>
 					<h1 class="pro-money">1299元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
 				<div class="jd-pro">
 					<div class="jd-proimg">
@@ -610,8 +858,12 @@
 					<h1 class="pro-name jd-name">米家iHealth血压计</h1>
 					<h1 class="pro-sm">爸妈上手就会用的智能血压计</h1>
 					<h1 class="pro-money">399元</h1>
+					<div class="shangtan">
+						<span>小米电视太给力了，抢购产品杠杠的，听说客服妹子都特别...</span>
+						<span> 来自于 不吃肉的虎 的评价 </span>
+					</div>
 				</div>	
-				<div class="jd-pro">
+				<div class="jd-pro1">
 					<div class="jd-pl">
 						<div class="pl-l">
 							<h1 class="pro-name jd-name jd-n">小米VR眼镜</h1>
@@ -797,9 +1049,9 @@
 		<!-- 视频模块开始 -->
 		<div class="sp-box">	
 			<div class="jiadian-t">
-				<h1 class="reping">热评产品</h1>		
+				<h1 class="reping">视频</h1>		
 			</div>
-			<div class="jiadian-b rp-box">
+			<div class="jiadian-b shi-box">
 				<div class="rp-pro rp-p01 sp-kp">
 					<div class="sp-pic">
 						<img src="img/sp-01.jpg" alt="">
