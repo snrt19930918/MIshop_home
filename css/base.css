@@ -5,6 +5,10 @@
 	text-decoration: none; /* a标签（下划线）*/
 	list-style-type: none; /*列表样式，实心圆、空心圆、正方形*/
 	font-style: normal;
+	-webkit-tap-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+	user-select:none;
 }
 img{
 	width: 100%;

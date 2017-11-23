@@ -856,6 +856,7 @@ body{
 	left: 0;
 	top:0;
 	padding-top: 20px;
+	z-index: 999;
 }
 .ban-list li{
 	width: 174px;
@@ -874,13 +875,12 @@ body{
 .ban-list a{
 	color: #fff;
 }
-.ban-button{
+
+#ban-bL{
 	display: block;
 	width: 46px;
 	height: 69px;
-	/*background-color: yellow;*/
 	position: absolute;
-	/*left: 234px;*/
 	top:0;
 	bottom: 0;
 	margin: auto;
@@ -888,28 +888,39 @@ body{
 	text-align: center;
 	font-size: 30px;
 	color: #757575;
-}
-.ban-bL{
+	z-index: 998;
 	left: 234px;
 }
-.ban-bR{
-	/*margin-right: 0;*/
+#ban-bR{
+	display: block;
+	width: 46px;
+	height: 69px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	margin: auto;
+	line-height: 69px;
+	text-align: center;
+	font-size: 30px;
+	color: #757575;
+	z-index: 998;
 	right: 0;
 }
 .ban-button:hover{
 	color: #fff;
 	background-color:rgba(0,0,0,.4);
 }
-.dian{
+#dian{
 	width: 120px;
 	height: 10px;
 	/*background-color: green;*/
 	position: absolute;
 	right: 30px;
 	bottom: 20px;
-
+	z-index: 997;
+	left: auto;
 }
-.dian li{
+#dian li{
 	width: 6px;
 	height: 6px;
 	background-color: #fff;
@@ -919,7 +930,7 @@ body{
 	margin:0 0 0 10px;
 	border-radius: 50%;
 }
-.dian .dian-xuan{
+#dian .dian-xuan{
 	background-color: #ccc;
 	border:2px solid #fff;
 }

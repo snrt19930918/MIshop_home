@@ -8,6 +8,9 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="font/iconfont.css">
 	<link rel="stylesheet" href="font/font/iconfont.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src="js/jquery-min.js"></script>
+	<script src="js/swiper.min.js"></script>
 </head>
 <body>
 	<!-- 头部开始 -->
@@ -73,10 +76,20 @@
 	<!-- 导航结束 -->
 	<!-- banner模块开始 -->
 	<div class="banner">
-		<div class="banpic">
-			<a href="https://www.mi.com/mibookpro/">
-				<img src="img/ban-pic.jpg" alt="">
-			</a>
+		<div class="banpic swiper-container">
+			<div class="swiper-wrapper">
+				<a href="https://www.mi.com/mibookpro/" class="swiper-slide">
+					<img src="img/ban-pic.jpg" alt="">
+				</a>
+				<a href="https://www.mi.com/mibookpro/" class="swiper-slide">
+					<img src="img/BANNER03.jpg" alt="">
+				</a>
+				<a href="https://www.mi.com/mibookpro/" class="swiper-slide">
+					<img src="img/BANNER02.jpg" alt="">
+				</a>
+			</div>
+			
+			
 			<ul class="ban-list">
 				<li>
 					<a href="">
@@ -139,9 +152,9 @@
 					</a>
 				</li>
 			</ul>
-				<a href="" class="ban-button ban-bL"> 〈 </a>
-				<a href="" class="ban-button ban-bR"> 〉 </a>
-			<ul class="dian">
+				<a href="" class="swiper-button-prev" id="ban-bL">  </a>
+				<a href="" class="swiper-button-next" id="ban-bR">  </a>
+			<ul class="swiper-pagination" id="dian">
 				<li class="dian-xuan"></li>
 				<li></li>
 				<li></li>
@@ -1215,3 +1228,13 @@
 	<!-- 企业信息模块结束 -->
 </body>
 </html>
+<script> 
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 5000,//可选选项，自动滑动
+	effect : 'fade',
+	pagination : '.swiper-pagination',
+	loop:true,
+	prevButton:'.swiper-button-prev',
+	nextButton:'.swiper-button-next',
+})
+</script>
